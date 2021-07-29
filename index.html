@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-profile</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+    //共通パーツ読み込み
+      $(function() {
+          $("#header").load("header.html");
+      });
+    </script>
+    <script src="top.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header">
+        <div class="header-left">
+          <a href="index.html"><img src="images/logo1_1.png" class="logo"></a>
+        </div>
+        <div class="header-right">
+          <div class="sns">
+            <a href="https://www.instagram.com/manabu_okubo/"><span class="insta"><i class="fab fa-instagram fa-4x"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <ul class="nav">
+          <li><a href="index.html"><span>top</span></a></li>
+          <li><a href="work.html"><span>work</span></a></li>
+          <li><a href="portfolio.html"><span>portfolio</span></a></li>
+          <li><a href="#"><span>contact</span></a></li>
+        </ul>
+      </div>
+    </header>
+
+    
+    <div class="main">
+      <div class="slide">
+        <img src="images/prof1.jpeg" />
+        <img src="images/prof2.jpeg" />
+        <img src="images/prof3.jpeg" />
+      </div>
+      <p>
+        <input type="range" id="slide_speed" value="2000" min="2000" max="10000">
+      </p>
+      
+    </div>
+  </body>
+</html>
