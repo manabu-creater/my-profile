@@ -325,6 +325,60 @@ button:active {
   }
 }
 
+@media screen and (max-width: 599px) {
+  .header-right a, .header-right p {
+    font-size: 60%;
+  }
+
+  .header-right p {
+    margin-right: 20px;
+  }
+
+  .fab {
+    font-size: 60%;
+  }
+
+  .logo {
+    width: 90px;
+    height: 55px;
+  }
+
+  .sns a {
+    margin: 10px 10px;
+  }
+
+  .nav li {
+    margin: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 80%;
+  }
+
+  .accordions08 {
+		display: block;
+	}
+	.accordions08:hover .slide-item {
+		width: 100%;
+		height: 20vh;
+	}
+	.accordions08 .slide-item {
+		width: 100%;
+		height: 20vh;
+	}
+	.accordions08 .slide-item:hover {
+		width: 100% !important;
+		height: 100vh !important;
+	}
+	.accordions08 .slide-item h2 {
+		top: 35%;
+  }
+  
+  .slidecont button {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+
+}
+
 @media only screen and (max-width:768px) {
   .header-right a, .header-right p {
     font-size: 60%;
