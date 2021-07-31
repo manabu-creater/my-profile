@@ -6,27 +6,55 @@
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
     <script src="top.js"></script>
+    <script src="button.js"></script>
   </head>
   <body>
-    <script>header('../');</script>
-    <header>
+    <header id="header">
+      <div class="header">
+        <div class="header-left">
+          <a href="index.html"><img src="images/logo1_1.png" class="logo"></a>
+        </div>
+        <div class="header-right">
+          <div class="sns">
+            <a href="https://www.instagram.com/manabu_okubo/"><span class="insta"><i class="fab fa-instagram fa-4x"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <ul class="nav">
+          <li><a href="index.html"><span>top</span></a></li>
+          <li><a href="work.html"><span>work</span></a></li>
+          <li><a href="portfolio.html"><span>portfolio</span></a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqWdRnzcMn2TVZr3YGztrPGsXC1KNALqRG92momRPCPUgo5g/viewform?usp=sf_link"><span>contact</span></a></li>
+        </ul>
+      </div>
     </header>
+
     <div class="container">
-      <div class="samples">
-        <div class="sample">
-          <p>ホームページ</p>
-          <a href="https://manabu-creater.github.io/yamaki-hp/"><img src="images/work1.png" class="sample-img"></a>
+      <div class="accordions08">
+        <div class="slide-item">
+          <a href="https://manabu-creater.github.io/yamaki-hp/"></a>
+          <h2>ホームページ</h2>
+          <div class="slidecont">
+            <p>テキスト 1</p>
+            <button type=“button” onclick="location.href='https://manabu-creater.github.io/yamaki-hp/'">詳しく見る</button>
+          </div>
         </div>
-        <div class="sample">
-          <p>ショッピングサイト</p>
-          <a href="https://meat-kajiyama1.herokuapp.com/"><img src="images/work2.png" class="sample-img"></a>
+        <div class="slide-item">
+          <h2>ショッピングサイト</h2>
+          <div class="slidecont">
+            <p>テキスト 2</p>
+            <button type=“button” onclick="location.href='https://meat-kajiyama1.herokuapp.com/'">詳しく見る</button>
+          </div>
         </div>
-        <div class="sample">
-          <p>ランディングページ</p>
-          <a href="https://manabu-creater.github.io/yamaki-hair/"><img src="images/work3.png" class="sample-img"></a>
+        <div class="slide-item">
+          <h2>ランディングページ</h2>
+          <div class="slidecont">
+            <p>テキスト 3</p>
+            <button type=“button” onclick="location.href='https://manabu-creater.github.io/yamaki-hair/'">詳しく見る</button>
+          </div>
         </div>
       </div>
     </div>
   </body>
 </html>
-
