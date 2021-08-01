@@ -2,7 +2,7 @@
 body {
   font-family: serif;
   font-size: 14px;
-  /* color: white; */
+  color: white;
   margin: 0 auto;
   background-color: black;
 }
@@ -131,38 +131,53 @@ header {
   display: none;
 }
 
-.contents {
-  width: 900px;
-  margin: 200px auto 200px; 
-  position: relative;
-}
-
-.contents p {
-  flex-wrap: wrap;
-  width: 700px;
+.main {
+  width: 920px;
   margin: 20px auto;
-  font-size: 130%;
-  color: white;
 }
 
-.concepts {
-  text-align: center;
-}
-
-.salon {
+.background {
   width: 900px;
+  margin: 50px auto;
   display: flex;
-  justify-self: center;
-  opacity: 0.7;  
+  justify-content: center;
 }
 
-.concepts {
-  position: absolute;
-  top: 30%;
-  left: 12%;
-  color: white;
-  font-weight: bold;
+.background p {
+  text-align: left;
+  font-size: 160%;
 }
+
+.profile1 {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.profile2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.title1 {
+  height: 60px;
+  margin-bottom: 20px;
+  margin-left: 65px;
+}
+
+.current {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.now {
+  height: 90px;
+}
+
+.text {
+  font-size: 160%;
+  margin-bottom: 100px;
+}
+
 
 
 
@@ -181,7 +196,7 @@ header {
   }
 
   .logo {
-    width: 100px;
+    width: 90px;
     height: 55px;
   }
 
@@ -195,75 +210,52 @@ header {
     font-size: 80%;
   }
   
+  .main {
+    width: 380px;
+  }
 
   .slide {
     height: 230px;
   }
 
-  .contents {
-    width: 350px;
-    margin: 20px auto 20px; 
+  .background {
+    width: 380px;
+    margin: 50px auto 10px;
   }
   
-  .contents h1 {
-    margin-top: 15px;
-  }
-  
-  .contents p {
-    flex-wrap: wrap;
-    width: 230px;
-    margin: 10px auto;
+  .background p {
+    text-align: left;
     font-size: 60%;
-    color: white;
   }
   
-  .salon {
-    width: 280px;
-    margin: 100px auto 0;
+  .profile1 {
+    width: 150px;
+    margin-right: 5px;
+  }
+  
+  .profile2 {
+    width: 200px;
+    margin-left: 5px;
+  }
+  
+  .title1 {
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
   }
 
-  .concepts {
-    top: 15%;
-    left: 18%;
-  }
-
-  .title3 {
-    width: 180px;
-  }
-
-  .concepts h1 {
-    font-size: 120%;
-  }
-
-  .title2 {
-    width: 180px;
-    margin-top: 70px;
-  }
-
-  .shop-info {
-    display: initial;
-  }
-
-  .appearance, iframe {
-    width: 280px;
-    height: 200px;
-    margin: 0 auto 20px;
-  }
-
-  .map h3 {
-    text-align: center;
-    font-size: 100%;
-    margin-left: initial;
-  }
-
-  .info-right p {
-    font-size: 80%;
-    text-align: center;
+  .current {
     margin-top: initial;
   }
-
-  .info-right {
-    text-align: left;
+  
+  .now {
+    height: 45px;
+  }
+  
+  .text {
+    margin: 0 30px;
+    font-size: 90%;
+    margin-bottom: 100px;
   }
 
   
@@ -295,62 +287,35 @@ header {
     height: 450px;
   }
 
-  .contents {
-    width: 650px;
-    margin: 20px auto 20px; 
+  .main {
+    width: 600px;
+  }
+
+  .background {
+    width: 600px;
   }
   
-  .contents h1 {
-    margin-top: 15px;
-  }
-  
-  .contents p {
-    width: 450px;
-    font-size: 80%;
-  }
-  
-  .salon {
-    width: 550px;
-    margin: 100px auto 0;
-  }
-
-  .concepts {
-    top: 15%;
-    left: 18%;
-  }
-
-  .title3 {
-    width: 250px;
-  }
-
-  .concepts h1 {
-    font-size: 140%;
-  }
-
-  .title2 {
-    width: 250px;
-    margin-top: 70px;
-  }
-
-  .shop-info {
-    display: initial;
-  }
-
-  .appearance, iframe {
-    width: 450px;
-    height: 400px;
-    margin: 0 auto 20px;
-  }
-
-  .map h3 {
+  .background p {
+    text-align: left;
     font-size: 120%;
-    text-align: center;
-    margin-left: initial;
+  }
+  
+  .profile1 {
+    width: 280px;
+    margin-right: 10px;
+  }
+  
+  .profile2 {
+    width: 350px;
+    margin-left: 10px;
+  }
+  
+  .title1 {
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 50px;
   }
 
-  .info-right p {
-    font-size: 120%;
-    margin-top: initial;
-  }
+  
 
 }
