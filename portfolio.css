@@ -112,25 +112,6 @@ header {
   margin-right: 50px;
 }
 
-/* container */
-/* .samples {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.sample {
-  margin: 30px;
-}
-.sample p {
-  font-size: 140%;
-  margin-bottom: 20px;
-}
-
-.sample-img {
-  width: 300px;
-} */
-
 .accordions08 {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -404,7 +385,7 @@ button:active {
   .nav li {
     margin: 10px 20px 10px 20px;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 100%;
   }
 
 	.accordions08 {
