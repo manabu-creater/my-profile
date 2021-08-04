@@ -116,16 +116,24 @@ header {
 }
 
 .sample ul{
-	display: flex;
-	overflow-x: scroll;
-	margin: 0;	
-	padding: 0;
+  display: flex;
+  overflow-x: scroll;
+  margin: 0;	
+  padding: 0;
 }
+
 .sample li{
-	min-width: 45%;
-	margin: 10px;	
-	padding: 0;
-	list-style: none;
+  min-width: 45%;
+  margin: 10px;	
+  padding: 0;
+  list-style: none;
+}
+
+site p {
+  font-size: 140%;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .sample-img {
@@ -165,8 +173,9 @@ header {
     width: 350px;
   }
 
-  .sample ul {
-    /* display: initial; */
+  .site p {
+    font-size: 100%;
+    width: 100%;
   }
 
   .sample-img {
@@ -197,6 +206,11 @@ header {
   .sample {
     margin: 30px auto;
     width: 650px;
+  }
+	
+  .site p {
+    font-size: 120%;
+    width: 100%;
   }
 
   .sample-img {
